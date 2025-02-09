@@ -3,13 +3,13 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
+    "Next.js",
     "TypeScript",
     "TailwindCSS",
-    "Svelte",
+    "JavaScript",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "Prisma ORM"];
 
   return (
     <section
@@ -69,8 +69,8 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> BSc in Computer Science </strong> - University of South Africa
+                  (2021-2024)
                 </li>
                 <li>
                   Relevant Coursework: Data Structures, Web Development, Cloud
@@ -84,22 +84,30 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Full Stack Engineer (SaaS) @ Journalink-(Portfolio) (2023 - Present){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                    - Optimized backend with WebSockets.<br/>
+                    - Ensured reliable messaging via Redis.<br/>
+                    - Migrated services to AWS EC2.<br/>
+                    - Used Docker for CI/CD.<br/>
+                    - Improved uptime to 99%.<br/>
+                    - Secured domain with SSL & NGINX.<br/>
+                    - Designed UI in Figma.<br/>
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Software Engineer (SaaS) <br/> @ PayPer-(Portfolio) (2023 - 2024){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    - Used Postgres, TypeScript, and Prisma for data processing.<br/>
+                    - Reduced customer processing times by 50%.<br/>
+                    - Designed a lightweight, intuitive UI.<br/>
+                    - Added email transaction confirmations.<br/>
+                    - Researched payment solutions and created Figma prototypes.<br/>
                   </p>
                 </div>
               </div>
