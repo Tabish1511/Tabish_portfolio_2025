@@ -14,7 +14,7 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <>
+    <div className="w-full">
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}{" "}
       <div
         className={`min-h-screen transition-opacity duration-700 ${
@@ -28,7 +28,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
-    </>
+    </div>
   );
 }
 
